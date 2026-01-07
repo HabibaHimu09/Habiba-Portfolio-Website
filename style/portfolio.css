@@ -31,7 +31,8 @@ box-sizing: border-box;}
 
 .section-heading{
     max-width: 827px;
-    text-align: center;}
+    text-align: center;
+    margin: 0 auto;}
 
 .section-heading h2{
     font-size: 35px;
@@ -113,9 +114,10 @@ nav .menu a{
     max-width: 585px;
     vertical-align: bottom;}
 
+
 #about{
-    padding-top: 130px;    
-}
+    padding-top: 125px;}
+
 
 #about .about-container{
     width: 71%;
@@ -142,57 +144,154 @@ nav .menu a{
     font-size: 20px;}
 
 
-#skills{
-    margin: 0 auto;
-    text-align: center;
-    padding: 130px;
-    /*padding: 130px 157px;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-    border: 1px solid red;}
+
+
+#skills{
+    padding-top: 125px;}
 
 
 .skills-container{
-    
     width: 81%;
     max-width: 1140px;
-    align-items: center;
-    justify-content: center; /* horizontal */
-border: 1px solid red;}
-
-
-.section-heading{
     margin: 0 auto;
-    
-    border: 1px solid red;
-    }
-
-#skills .skills-container .section-heading h2{
-    font-size: 35px;
-    font-weight: bold;
-    border: 1px solid red;}
+    align-items: center;}
 
 
 #skills .skills-container .skills-box{
     display: flex;
-    justify-content: center;
-    border: 1px solid red;}
+    gap: 24px;}
 
 
-#skills .skills-container .skills-box .skills-card h4{
+.skills-box .skills-card{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #0000001c;
+    max-width: 267px;}
+
+
+.skills-card img{
+    max-width: 44px;
+    margin-bottom: 30px;}
+
+
+.skills-box .skills-card h4{
     font-size: 20px;
-    font-weight: bold;
-    display: flex;
+    color: #181818;
+    margin-bottom: 20px;}
+
+
+.skills-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;}
+
+
+
+
+
+#resume{
+    padding-top: 125px;}
+
+
+.resume-container{
+    width: 81%;
+    max-width: 1140px;
+    margin: 0 auto;
     align-items: center;}
 
-
-.skills-card{
-    margin: 0 10px;
-    border-style: solid;
-    border-radius: 20px;}
+.resume-box{
+    display: flex;
+    gap: 113px;}
 
 
-.img{
-    padding: 30px 190px 300px 27px;}
+.resume-card h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;}
+
+.resume-card h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 10px;}
+
+.resume-card h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 20px;}
+
+.resume-card p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 20px;}
+
+#resume .btn{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 113px;
+    align-items: center};
+
+
+
+
+
+
+#footer{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    background-color: #fff8f3;
+    padding:130px;
+    }
+
+
+footer .footer-container{
+    background-color:#fff8f3;
+    padding: 60px;}
+
+
+footer .footer-contact-info{
+    margin: 130px 380px 50px 230px;
+    width: 81%;
+    max-width: 1140px;
+    display: flex;
+    gap:116px;
+    
+}
+    
+.footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;}
+
+
+.footer-container .social{
+    max-width: 562px;}
+
+
+.footer-container .social p{
+    color: #474747;
+    line-height: 25px;
+    margin-bottom: 30px;}
+
+
+.footer-container .social .icons{
+    margin-right: 24px;}
+
+
+.footer-container form input[type="text"],
+.footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;}
+
+
+
+
